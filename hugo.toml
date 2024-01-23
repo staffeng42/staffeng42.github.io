@@ -1,0 +1,67 @@
+## Basic Configuration
+
+baseURL = 'https://staff42.org/'
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Staff42 Community Bureau"
+title = 'Staff42 Community Website'
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "" # Comment out to disable Disqus.
+# googleAnalytics = ""
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Staff42 Community Bureau"
+# intro = "Startup Guru Extraordinaire"
+description = "A French Staff-plus Engineering Community"
+authorimage = "logo.png"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "staffeng42"
+# instagram = "<username>"
+# linkedin = "<username>"
+# twitter = "<username>"
+# facebook = "<username>"
+# google = "<username>"
+# stackoverflow = "<username>"
+# email = "you@example.com"
+
+## Extras
+[params.extra]
+copyright = "© 2016. Staff42 Community Bureau. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+hightlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "coderag"
+    identifier = "coderag"
+    weight = 300
+    url = "/coderag/"
