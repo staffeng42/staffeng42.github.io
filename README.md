@@ -1,6 +1,17 @@
 # Staff42 Community Website
 Welcome to the official repository for the Staff42 community website. This site is built with Hugo, a fast and modern static site generator, and is designed to serve as a platform for French staff-plus engineers to share knowledge, insights, and experiences through blogging articles.
 
+## Requirements
+
+[Install hugo](https://gohugo.io/installation/) on your laptop:
+```bash
+# macos
+brew install hugo
+
+# using snap
+sudo snap install hugo
+```
+
 ## Quickstart with Hugo
 To get started with Hugo and contribute to the Staff42 website, you'll need to have Hugo installed on your machine. If you haven't already, you can follow the instructions on the Hugo installation page.
 
