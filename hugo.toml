@@ -3,7 +3,7 @@
 baseURL = 'https://staff42.org/'
 builddrafts = false
 canonifyurls = false
-languageCode = "en-US"
+languageCode = "fr-FR"
 
 contentdir = "content"
 layoutdir = "layouts"
@@ -22,15 +22,15 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Staff42 Community Bureau"
-# intro = "Startup Guru Extraordinaire"
 description = "A French Staff-plus Engineering Community"
+# intro = "Startup Guru Extraordinaire"
 authorimage = "logo.png"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
-description = "Simple minimalist theme"
-keywords = "minimalist,blog,goa,hugo,developer"
+description = "Staff42 Community Website"
+keywords = "staff-plus,staff-engineering,community,engineers,french,francophone,france"
 
 ## Social Accounts
 [params.social]
@@ -51,17 +51,22 @@ hightlightjs = true
 
 ## Main Menu
 [[menu.main]]
+    name = "join us"
+    weight = 50
+    identifier = "join"
+    url = "/join/"
+[[menu.main]]
     name = "blog"
     weight = 100
     identifier = "blog"
     url = "/blog/"
 [[menu.main]]
+    name = "code de conduite"
+    identifier = "code de conduite"
+    weight = 200
+    url = "/code_of_conduct/"
+[[menu.main]]
     name = "about"
     identifier = "about"
-    weight = 200
-    url = "/about/"
-[[menu.main]]
-    name = "coderag"
-    identifier = "coderag"
     weight = 300
-    url = "/coderag/"
+    url = "/about/"
