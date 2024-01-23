@@ -1,0 +1,3 @@
+[submodule "themes/hugo-goa"]
+	path = themes/hugo-goa
+	url = git@github.com:kaapiandcode/hugo-goa.git
