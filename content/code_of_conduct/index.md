@@ -1,7 +1,7 @@
 +++
 categories = ["code_of_conduct"]
 comments = false
-date = "2016-10-02T22:55:05-04:00"
+date = "2024-01-23T12:00:05-01:00"
 draft = false
 slug = ""
 tags = ["code_of_conduct"]
