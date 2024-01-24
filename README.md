@@ -1,8 +1,6 @@
 # Staff42 Community Website
 Welcome to the official repository for the Staff42 community website. This site is built with Hugo, a fast and modern static site generator, and is designed to serve as a platform for French staff-plus engineers to share knowledge, insights, and experiences through blogging articles.
 
-The Web site is available as [https://staffeng42.github.io/](https://staffeng42.github.io/)
-
 ## Requirements
 
 [Install hugo](https://gohugo.io/installation/) on your laptop:
