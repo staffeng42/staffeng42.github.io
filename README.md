@@ -19,7 +19,7 @@ Once Hugo is installed, you can clone the repository and start the Hugo server:
 
 ```bash
 # Clone the repository
-git clone git@github.com:staffeng42/staffeng42.github.io.git
+git clone --recursive git@github.com:staffeng42/staffeng42.github.io.git
 
 # Navigate to the repository folder
 cd staffeng42.github.io
