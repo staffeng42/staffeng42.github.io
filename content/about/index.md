@@ -1,21 +1,23 @@
 +++
 categories = ["about"]
 comments = false
-date = "2016-10-02T22:55:05-04:00"
+date = "2024-01-21T10:55:05-04:00"
 draft = false
 slug = ""
 tags = ["about"]
-title = "About"
+title = "A propos de Staff42"
 
 showpagemeta = false
 +++
 
-Nous sommmes une communauté de Staff-plus engineers francophones.
+Staff42 est une communauté de Staff Engineers francophones créée en 2024.
 
-Né autour d'une bière et d'une volonté de partager nos "ways of working", nos hitoire, nos expériences.
-Ce groupe a pour but de favoriser les échanges et de promouvoir la culture staff engineering auprès des
-entreprises de l'écosystème français.
+Nous avons souhaité créer un espace pour partager nos expériences et nos façons de travailler. 
+Nous souhaitons promouvoir le rôle de "Staff Enginner/Principal Engineer" dans les organisations, plus particulièrement auprès
+des entreprises Francophones.
 
-Nous accueillons tous les staff-plus engineers !
-Avant de nous rejoindre, prenez le temps de prendre connaissance de notre code de conduite.
-Voici le formulaire à remplir pour nous rejoindre par la suite.
+Avant de nous rejoindre, prenez le temps de prendre connaissance de [notre code de conduite](/code_of_conduct).
+
+Vous souhaitez nous rejoindre? [C'est par ici](/join)
+
+L'équipe Staff42

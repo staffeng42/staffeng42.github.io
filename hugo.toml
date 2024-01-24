@@ -21,15 +21,15 @@ enableRobotsTXT = true
 
 ## Site Settings
 [params]
-author = "Staff42 Community Bureau"
-description = "A French Staff-plus Engineering Community"
+author = "Staff42 Community"
+description = "La communauté des Staff Engineers Francophones"
 # intro = "Startup Guru Extraordinaire"
 authorimage = "logo.png"
-dateformat = "Jan 2, 2006"
+dateformat = "Jan 22, 2024"
 
 ## Site Meta Settings
 [params.meta]
-description = "Staff42 Community Website"
+description = "Staff42 site de la communauté"
 keywords = "staff-plus,staff-engineering,community,engineers,french,francophone,france"
 
 ## Social Accounts
@@ -45,28 +45,29 @@ github = "staffeng42"
 
 ## Extras
 [params.extra]
-copyright = "© 2016. Staff42 Community Bureau. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
-poweredby = true
+copyright = "©2024 by Staff42 Bureau is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1)"
+poweredby = false
 hightlightjs = true
 
 ## Main Menu
 [[menu.main]]
-    name = "join us"
+    name = "Qu'est-ce que Staff42 ?"
+    identifier = "about"
+    weight = 10
+    url = "/about/"
+[[menu.main]]
+    name = "Nous rejoindre"
     weight = 50
     identifier = "join"
     url = "/join/"
 [[menu.main]]
-    name = "blog"
+    name = "Blog et informations"
     weight = 100
     identifier = "blog"
     url = "/blog/"
 [[menu.main]]
-    name = "code de conduite"
+    name = "Code de conduite"
     identifier = "code de conduite"
     weight = 200
     url = "/code_of_conduct/"
-[[menu.main]]
-    name = "about"
-    identifier = "about"
-    weight = 300
-    url = "/about/"
+
