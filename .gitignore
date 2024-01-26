@@ -1,3 +1,7 @@
 .DS_Store
 /.hugo_build.lock
 /.idea/workspace.xml
+/yarn.lock
+/.idea
+/node_modules
+/resources

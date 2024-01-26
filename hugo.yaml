@@ -1,0 +1,39 @@
+baseURL: 'https://staffeng42.github.io/'
+title: 'Staff42 la commu'
+languageCode: fr-fr
+DefaultContentLanguage: fr
+enableEmoji: true
+enableGitInfo: true
+enableRobotsTXT: true
+canonifyURLs: true
+paginate: 9
+enableInlineShortcodes: true
+
+params:
+  author:
+  author_image: /images/defaults/author.jpg
+  og_image: /images/defaults/featured_image.jpg
+  moto: "Staff42"
+  description: "Le site de la communauté Staff42 Francophone"
+  google_analytics_id: '' # @NOTE: To remove the G2A tag, juste leave this key to an empty string.
+  cta:
+    text: Book a meeting
+    url: https://www.youtube.com/watch?v=oHg5SJYRHA0
+  footer:
+    social_url: https://twitter.com/staff42fr
+    social_username: '@afrodudeonabike'
+
+
+taxonomies:
+  category: Categories
+  tag: Tags
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.110.0"
