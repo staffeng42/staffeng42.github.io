@@ -14,6 +14,9 @@ des entreprises Francophones.
 
 Avant de nous rejoindre, prenez le temps de prendre connaissance de [notre code de conduite](/code_of_conduct).
 
-Vous souhaitez nous rejoindre? [C'est par ici](/join)
+Vous souhaitez nous rejoindre?
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0fG9-030vT69jLf3-AdFwDVMiOJ03JS2LH8igREl1yjpcBQ/viewform?embedded=true" width="640" height="1487" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+
 
 L'équipe Staff42

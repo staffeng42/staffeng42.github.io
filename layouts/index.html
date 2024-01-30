@@ -1,24 +1,35 @@
 {{ define "main" }}
 <div class="">
-  <div class="relative isolate">
-    <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
-      <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#243645] to-[#ff0000] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    <div class="relative isolate">
+        <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+             aria-hidden="true">
+            <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#243645] to-[#ff0000] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+                 style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        </div>
+
+
+        <div class="container mx-auto mt-20 mx-40">
+            <div class="flex">
+                <div class="w-1/4">
+                    {{ $p1image := resources.Get .Site.Params.og_image }}
+                    {{ with $p1image }}
+                    <img src="{{ .RelPermalink }}" alt="App screenshot"
+                         class="h-auto rounded-md bg-white/5 shadow-2xl ring-2 ring-white/10">
+                    {{ end }}
+                </div>
+
+                <div class="w-3/4 p-4">
+                    <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl mb-8">{{ .Site.Params.moto }}</h1>
+                    <p class="tracking-tight font-thin text-gray-300 mx-auto text-2xl mb-4">{{ .Site.Params.description
+                        }}</p>
+                    <a class="tracking-tight font-thin text-orange-400 mx-auto text-xl" href="/about">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+
+
     </div>
-    <div class="lg:pb-10">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        {{ $p1image := resources.Get .Site.Params.og_image }}
-        {{ with $p1image }}
-          {{ with .Fill (printf "%dx%d Center webp q90" 2432 1442) }}
-            <img src="{{ .RelPermalink }}" alt="App screenshot" width="2432" height="1442" class="mt-16 rounded-md bg-white/5 shadow-2xl ring-2 ring-white/10 sm:mt-24">
-          {{ end }}
-        {{ end }}
-      </div>
-    </div>
-  </div>
-  <div class="flex justify-center flex-col items-center space-y-8">
-       <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">{{ .Site.Params.moto }}</h1>
-       <p class="tracking-tight font-thin text-gray-300 mx-auto">{{ .Site.Params.description }}</p>
-  </div>
+
 
 </div>
 {{ end }}
