@@ -30,13 +30,13 @@ Le même jour, un groupe de Staff42 a préparé un BOF organisé autour d’un p
 
 Nous avions préparé 7 grandes questions, que tout staff en devenir ou staff en poste se pose. Après les deux premières questions, les échanges entre membres du public et entre le panel et le public étant très nourris, nous avons laissé cours aux échanges:
 
-1. In your opinion why Staff Engineering?
-2. What is your staff super power?
-3. Do you oscillate between Staff-plus archetypes?
-4. Did you do the pendulum between manager x IC career track?
-5. How did Staff Engineering appear in your org?
-6. How do you collaborate with managers as a staff-plus?
-7. How does your company reflect the staff Engineering career track in the IC ladder?
+1. A votre avis, pourquoi le besoin de Staff Engineers ?
+2. Quel est votre super pouvoir de Staff ?
+3. Est-ce que vous osciller entre différent archétypes de Staff ?
+4. Avez-vous jongler entre des rôles de Manager & Contributeur Individuel ?
+5. Comment est-ce que le rôle de Staff Engineer est apparu dans votre entreprise ?
+6. Comment collaborez-vous avec les managers en tant que Staff(+) ?
+7. Comment votre entreprise représente la voie Staff Engineering dans l'échelle hiérarchique des Contributeurs Individuels ?
 
 Nous avons créé Staff42 pour adresser le déficit de notoriété du Staff Engineering et parfois de compréhension de la discipline. Au regard du nombre de personnes qui se sont rendues compte de la similarité entre leur réalité quotidienne et celle de staff engineers en poste, ces échanges nous renforcent dans nos convictions 🙂
 
