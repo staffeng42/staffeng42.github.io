@@ -8,7 +8,7 @@ summary: Retour sur Devoxx France 2024 !
 tags: [ 'devoxxfr', 'france', 'staff42', 'BOF', 'talk', 'speakers' ]
 ---
 
-# Lancement du site
+# Retour sur Devoxx France 2024
 
 La conférence Devoxx France 2024 qui s'est achevée il y a quelques semaines a été l'occasion de (re)parler du rôle de Staff Engineer dans nos entreprises. Que ce soit au travers d'un talk officiel, des discussions pendant le BOF Staff42, ou des interactions informelles durant toute la conférence, le terrain était propice à l'échange sur les différentes facettes du rôle.
 
