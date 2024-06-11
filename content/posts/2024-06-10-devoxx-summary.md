@@ -1,13 +1,18 @@
 ---
-title: "Devoxx recap"
-date: 2024-01-24T18:00:00+07:00
+title: Devoxx recap
+date: 2024-06-09T11:00:00.000Z
 draft: false
 description: Retour sur Devoxx France 2024 !
-featured_image: devoxx-bof-photo-audience-2-2024.jpg 
+featured_image: devoxx-bof-photo-audience-2-2024.jpg
 summary: Retour sur Devoxx France 2024 !
-tags: [ 'devoxxfr', 'france', 'staff42', 'BOF', 'talk', 'speakers' ]
+tags:
+  - devoxxfr
+  - france
+  - staff42
+  - BOF
+  - talk
+  - speakers
 ---
-
 # Retour sur Devoxx France 2024
 
 La conférence Devoxx France 2024 qui s'est achevée il y a quelques semaines a été l'occasion de (re)parler du rôle de Staff Engineer dans nos entreprises. Que ce soit au travers d'un talk officiel, des discussions pendant le BOF Staff42, ou des interactions informelles durant toute la conférence, le terrain était propice à l'échange sur les différentes facettes du rôle.
@@ -26,21 +31,21 @@ __Vous l’aurez compris, cette courte présentation était l’occasion de fair
 
 ## Résumé des échanges lors du BOF staff42
 
-Le même jour, un groupe de Staff42 a préparé un BOF organisé autour d’un panel avec certains membres de notre communauté: [Alice](https://www.linkedin.com/in/bonhommebiais/), [Paola](https://www.linkedin.com/in/paola-ducolin-9a892557/), [Adrien](https://www.linkedin.com/in/adrienloison/), [Théotime](https://www.linkedin.com/in/theotimeleveque/) et [Guillaume](https://www.linkedin.com/in/guillaume-mazollier-173967122/) notre host du soir. Vous étiez plus d’une cinquantaine à nous avoir rejoint pour échanger autour des problématiques spécifiques à la pratique de Staff Engineering !
+La veille, un groupe de Staff42 a préparé un BOF organisé autour d’un panel avec certains membres de notre communauté: [Alice](https://www.linkedin.com/in/bonhommebiais/), [Paola](https://www.linkedin.com/in/paola-ducolin-9a892557/), [Adrien](https://www.linkedin.com/in/adrienloison/), [Théotime](https://www.linkedin.com/in/theotimeleveque/) et [Guillaume](https://www.linkedin.com/in/guillaume-mazollier-173967122/) notre host du soir. Vous étiez plus d’une cinquantaine à nous avoir rejoints pour échanger autour des problématiques spécifiques à la pratique de Staff Engineering !
 
 Nous avions préparé 7 grandes questions, que tout staff en devenir ou staff en poste se pose. Après les deux premières questions, les échanges entre membres du public et entre le panel et le public étant très nourris, nous avons laissé cours aux échanges:
 
 1. A votre avis, pourquoi le besoin de Staff Engineers ?
 2. Quel est votre super pouvoir de Staff ?
-3. Est-ce que vous osciller entre différent archétypes de Staff ?
-4. Avez-vous jongler entre des rôles de Manager & Contributeur Individuel ?
+3. Est-ce que vous oscillez entre différent archétypes de Staff ?
+4. Avez-vous jonglé entre des rôles de Manager & Contributeur Individuel ?
 5. Comment est-ce que le rôle de Staff Engineer est apparu dans votre entreprise ?
 6. Comment collaborez-vous avec les managers en tant que Staff(+) ?
 7. Comment votre entreprise représente la voie Staff Engineering dans l'échelle hiérarchique des Contributeurs Individuels ?
 
 Nous avons créé Staff42 pour adresser le déficit de notoriété du Staff Engineering et parfois de compréhension de la discipline. Au regard du nombre de personnes qui se sont rendues compte de la similarité entre leur réalité quotidienne et celle de staff engineers en poste, ces échanges nous renforcent dans nos convictions 🙂
 
-__Fun fact: combien de personnes se sont rendues compte que leur réalité quotidienne était beaucoup plus proche de celle d’un staff que ce que leur titre suggère?__
+__Fun fact: combien de personnes se sont rendu compte que leur réalité quotidienne était beaucoup plus proche de celle d’un staff que ce que leur titre suggère?__
 
 ![Staff42 BOF](/assets/images/blog/devoxx-bof-photo-audience-2024.jpg "Staff42 BOF")
 
@@ -51,7 +56,7 @@ La conférence Devoxx a été l’occasion d’initier de passionnantes discussi
 Celle-ci s’agrandit jour après jour, avec beaucoup d’activité sur le Slack Staff42.
 Mais rien ne vaut les rencontres en physique, alors ne ratez pas les prochains rendez-vous !
 
-- La conférence Staff+ London mi-juin (et notamment avec un super talk de Sami et Guillaume)
+- La conférence Staff+ London 2024 cette semaine (et notamment avec un super talk de Sami et Guillaume)
 - Notre prochain meetup, fin juin, qui sera l’occasion de tous se voir !
 - Nos groupes de peer mentoring, où l’on partage nos problèmes, nos expériences et essayons de collectivement trouver des solutions
 
