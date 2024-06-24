@@ -37,3 +37,21 @@ module:
   hugoVersion:
     extended: true
     min: "0.110.0"
+
+outputs:
+  home:
+  - html
+  page:
+  - html
+  section:
+  - html
+  - rss
+  taxonomy:
+  - html
+  term:
+  - html
+
+services:
+  rss:
+    limit: 20
+
