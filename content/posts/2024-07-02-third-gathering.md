@@ -33,7 +33,7 @@ Alma compte environ 60 personnes à la tech sur environ 300 personnes au total.
 5 personnes y sont staff, avec des profils très différents mais tous contributeurs majeurs de la trajectoire architecturale de l'entreprise. C'est d'ailleurs par l'architecture avec la formation d'un groupe
 que le staff engineering est arrivé chez eux.
 
-Les staffs reportent à différents types de manager (du CTO aux EMs) et travaillent en partenariat avec ces mêmes managers, pattern courante que nous avons pu observer chez d'autres startups/scaleups comme Back Market
+Les staffs reportent à différents types de manager (du CTO aux EMs) et travaillent en partenariat avec ces mêmes managers, pattern courant que nous avons pu observer chez d'autres startups/scaleups comme Back Market
 notamment.
 
 La présentation a donné suite à de très nombreuses questions et de multiples parallèles entre nos cultures d'entreprise !
