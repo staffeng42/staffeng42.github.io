@@ -20,16 +20,16 @@ Chaque membre de la communauté s'engage à respecter la diversité et l'inclusi
 2. Respect des autres membres :
 
 Le respect mutuel est la pierre angulaire de notre communauté.
-Les interactions doivent être respectueuses et constructives. Si la taquinerie et l'humour sont les bienvenue, les comportements abusifs, harcelants ou dégradants ne seront pas tolérés.
-Les membres doivent s'abstenir de toute forme de violence verbale ou physique, stalking ou poursuite non désirée.
+Les interactions doivent être respectueuses et constructives. Si la taquinerie et l'humour sont les bienvenus, les comportements abusifs, harcelants ou dégradants ne seront pas tolérés.
+Les membres doivent s'abstenir de toute forme de violence verbale ou physique, stalking ou avance non désirée.
 
 3. Interdiction des discours commerciaux :
 
-La communauté n'est pas une plateforme pour la promotion de produits (SaaS, third parties, provider) ou services commerciaux. Les discours à but commercial, la publicité, les sollicitations de vente ou le marketing déguisé, sont strictement interdits.
+La communauté n'est pas une plateforme pour la promotion de produits (SaaS, third parties, providers) ou services commerciaux. Les discours à but commercial, la publicité, la sollicitations de vente et le marketing déguisé sont strictement interdits.
 
 4. Non-recrutement entre membres :
 
-Afin de maintenir la confiance et l'intégrité de notre communauté, il est interdit de tenter de recruter ou de débaucher des membres de la communauté à des fins d'emploi sur des channels publics ou discussions en groupes. Notre espace est destiné à l'échange de connaissances et au à l'enrichissement mutuel sans arrière-pensées de recrutement.
+Afin de maintenir la confiance et l'intégrité de notre communauté, il est interdit de tenter de recruter ou de débaucher des membres de la communauté à des fins d'emploi sur des canaux publics ou discussions en groupes. Notre espace est destiné à l'échange de connaissances et à l'enrichissement mutuel sans arrière-pensées de recrutement.
 
 5. Confidentialité et partage d'informations :
 
