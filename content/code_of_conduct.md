@@ -25,7 +25,7 @@ Les membres doivent s'abstenir de toute forme de violence verbale ou physique, s
 
 3. Interdiction des discours commerciaux :
 
-La communauté n'est pas une plateforme pour la promotion de produits (SaaS, third parties, providers) ou services commerciaux. Les discours à but commercial, la publicité, la sollicitations de vente et le marketing déguisé sont strictement interdits.
+La communauté n'est pas une plateforme pour la promotion de produits (SaaS, third parties, providers) ou services commerciaux. Les discours à but commercial, la publicité, les sollicitations de vente et le marketing déguisé sont strictement interdits.
 
 4. Non-recrutement entre membres :
 
