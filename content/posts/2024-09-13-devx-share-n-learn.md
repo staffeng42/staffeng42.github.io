@@ -41,6 +41,6 @@ Nous avons aussi aborder l'idée de créer un "playbook" de référence pour abo
 - Comment faire adopter les solutions proposées ?
 - Comment mesurer/évaluer l'impact business des actions liées à la DevX ?
 
-Autant de questions aux réponses multiples mais que beaucoup de gens se posent !
+Autant de questions aux réponses multiples mais que beaucoup de gens se posent&nbsp;!
 
 Faites-nous signe si vous voulez prendre part à la discussion 😊
