@@ -1,23 +1,16 @@
 ---
-title: Troisième meetup chez Alma
-date: 2024-02-07T11:00:00.000Z
+title: "Meetup #3 chez Alma"
+date: 2024-07-02T11:00:00.000Z
+language: fr
 draft: false
-description: Résumé de notre troisième rencontre, organisée par Raphael, Staff Engineer chez Alma
-featured_image: ../assets/images/blog/third-meetup-07-2024_2.jpg
-summary: Résumé de notre troisième rencontre, organisée par Raphael, Staff Engineer chez Alma
-tags:
-  - meetup
-  - gathering
-  - rencontres
-  - Lydia
-  - Alma
-  - support
-  - staff42
-  - BOF
-  - talk
-  - speakers
+description: Résumé de notre troisième meetup, organisé chez Alma
+featured_image: ../assets/images/posts/third-meetup-07-2024_2.jpg
+summary: Résumé de notre troisième meetup, organisé chez Alma
+author: Staff42
+authorimage: ../assets/images/global/staff42-author.png
+tags: [ 'News', 'Meetup' ]
 ---
-# Retour sur notre troisième rencontre
+# Retour sur notre troisième meetup
 
 Jeudi dernier, nous avons pu nous rencontrer une nouvelle fois avec un groupe
 de membres de la communauté de Staff42 ! Alma a accueilli ce 3ème meetup,
@@ -78,3 +71,5 @@ Nous sommes maintenant plus de 180 staff-plus dans le groupe !
 Sinon, n’hésitez pas à nous suivre sur [LinkedIn](https://www.linkedin.com/company/staff42/).
 
 A bientôt !
+
+_L'équipe Staff42 ❤️_

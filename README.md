@@ -1,71 +1,85 @@
-# Staff42 web site
+<p align="center" style="padding-top:20px">
+ <img width="100px" src="images/logo-tailbliss-round.svg" align="center" alt="GitHub Readme Stats" />
+ <h1 align="center">TailBliss</h1>
+ <p align="center">TailBliss is an opinionated Hugo Starter with Tailwind CSS 3.2 and Alpine.js with light/dark modes.</p>
+</p>
+  <p align="center">
+    <a href="https://github.com/nusserstudios/tailbliss/actions/">
+      <img alt="Tests Passing" src="https://github.com/nusserstudios/tailbliss/actions/workflows/codeql.yml/badge.svg" />
+    </a>
+    <a href="https://github.com/nusserstudios/tailbliss/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/nusserstudios/tailbliss?color=0088ff" />
+    </a>
+    <a href="https://github.com/nusserstudios/tailbliss/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/nusserstudios/tailbliss?color=fc0b03" />
+    </a>
+    <a href="https://github.com/nusserstudios/tailbliss/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/nusserstudios/tailbliss?color=f97316" />
+    </a>
+    <br>
+    <br>
+    <a href="https://gohugo.io/">
+      <img src="https://img.shields.io/badge/Hugo%20-0.105.0%20-gray.svg?colorA=c9177e&colorB=FF4088&style=for-the-badge"/>
+    </a>
+    <a href="https://tailwindcss.com/">
+      <img src="https://img.shields.io/badge/TailwindCSS%20-V3-gray.svg?colorA=0284c7&colorB=38bdf8&style=for-the-badge"/>
+    </a>
+    <a href="https://alpinejs.dev/">
+      <img src="https://img.shields.io/badge/Alpine.js%20-V3-gray.svg?colorA=68a5af&colorB=77c1d2&style=for-the-badge"/>
+    </a>
+  </p>
 
-Welcome to the official repository for the Staff42 community website. This site is built with Hugo, a fast and modern static site generator, and is designed to serve as a platform for French staff-plus engineers to share knowledge, insights, and experiences through blogging articles.
+  <p align="center">
+    <a href="https://tailbliss.netlify.app/">View Demo</a>
+    ·
+    <a href="https://github.com/nusserstudios/tailbliss/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/nusserstudios/tailbliss/discussions/categories/feature-request">Request Feature</a>
+    ·
+    <a href="https://github.com/nusserstudios/tailbliss/discussions/categories/general">Ask Question</a>
+  </p>
+</p>
 
-The public Web site is available at https://staffeng42.github.io/
+<p align="center">
+<img src="https://raw.githubusercontent.com/nusserstudios/tailbliss/main/images/tailbliss-lighthouse-11-03-22.png" alt="Tailbliss Google Lighthouse Score" style="margin: 25px auto; max-width: 830px" width="100%" height="" />
+</p>
 
-## How to contribute to the site?
+**Install to VS Code with:**  
+`git clone git@github.com:nusserstudios/tailbliss your-name`
 
-```git clone git@github.com:staffeng42/staffeng42.github.io.git```
-
-```cd staffeng42.github.io```
-
-## Pre-requisites
-
-Install either npm or yarn
-
-## Install dependencies
-#### Install with NPM
+##### Install with NPM 
 `npm install`
-#### -or- install with Yarn
+##### Install with Yarn
 `yarn`
 
-## Start local server
-##### Develop with NPM
+**To start developing:**
+##### Develop with NPM 
 `npm run start`
-##### -or- develop with Yarn
+##### Develop with Yarn
 `yarn start`
 
-## Build static website for production
-##### Build with NPM
+**To generate the site HTML:**
+##### Build with NPM 
 `npm run build`
-##### -or- Build with Yarn
+##### Build with Yarn
 `yarn build`
 
+**npm run start** will run two commands parallel:  
+`npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch`
 
-You should now be able to see the site running locally on `http://localhost:1313/`.
+Has paginated Categories and Tags. Markdown files will automatically convert images put into `/assets` folder to .webp images. 
 
-## Contributing
-We welcome contributions from all members of the Staff42 community. Here's how you can contribute:
+## Image shortcodes for webp as well.
+{{< imgc src="img-name.jpg" alt="Place alt text here." >}}
 
-### Reporting Issues
-If you find any bugs or have a feature request, please use the Issues section of this repository to let us know.
+<a href="https://www.buymeacoffee.com/nusserstudios" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-### Submitting Articles
-To submit an article:
 
-1. Fork the repository.
-2. Create a new branch for your article.
-3. Add your article as a new markdown file in the `content/posts` directory.
-4. Commit your changes with a clear message describing the article.
-5. Push your changes to your fork.
-6. Submit a pull request to the main repository.
-7. Please ensure your article follows the content guidelines:
-   - Write in French, as it is the primary language of the Staff42 community.
-   - Keep your content relevant to staff-plus engineers.
-   - Provide valuable insights or information.
-   - Maintain a professional tone.
+## Credits
+4044ever - Original Theme
+https://github.com/4044ever/Hugo-Tailwind-3.0.git
 
-### Review Process
-All submissions will go through a review process by the Staff42 editorial team. We aim to provide feedback or merge your contributions quickly.
+Jan Heise - Alpine.js Navbar
+https://github.com/jan-heise/responsive-navbar-with-dropdown
 
-# Deployment
-The Staff42 website is automatically deployed when changes are merged into the **main** branch. Our CI/CD pipeline handles the build and deployment processes.
-
-# Support
-If you need help or have questions about using Hugo or contributing to the website, please reach out to the community maintainers or open a discussion in the Discussions section of this repository.
-
-# License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-Thank you for being a part of the Staff42 community and for your interest in contributing to our website. Together, we can make this a valuable resource for all staff-plus engineers.
+Made for Hacktoberfest, with ❤️ by NusserStudios.

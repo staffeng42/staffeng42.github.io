@@ -1,57 +1,226 @@
-baseURL: 'https://staffeng42.github.io/'
-title: 'Staff42 la communauté'
+baseURL: "https://staff42.org/"
+title: Staff42
 languageCode: fr-fr
 DefaultContentLanguage: fr
 enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
 canonifyURLs: true
-paginate: 9
+pagination:
+  pagerSize: 6
+darkmode_js:
+  - assets/js/darkmode.js
 enableInlineShortcodes: true
 
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer:
+        apostrophe: '&rsquo;'
+        disable: false
+        ellipsis: '&hellip;'
+        emDash: '&mdash;'
+        enDash: '&ndash;'
+        leftAngleQuote: '&laquo;'
+        leftDoubleQuote: '&ldquo;'
+        leftSingleQuote: '&lsquo;'
+        rightAngleQuote: '&raquo;'
+        rightDoubleQuote: '&rdquo;'
+        rightSingleQuote: '&rsquo;'
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+
 params:
-  author:
-  author_image: /images/defaults/author.jpg
-  og_image: /images/defaults/featured_image.jpg
-  moto: "Staff42"
-  description: "Le site de la communauté Staff42 Francophone"
-  google_analytics_id: '' # @NOTE: To remove the G2A tag, juste leave this key to an empty string.
-  cta:
-    text: Rejoindre la communauté
-    url: /contact
+  author: Staff42
+  authorimage: ../assets/images/global/staff42-author.png
+  og_image: /images/pages/staff42-cover.jpg
+  moto: "La communauté francophone de Staff Engineers"
+  description: "Staff42, la communauté fracophone de partage autour du rôle de Staff Engineer"
+  disable_theme_toggle: true
+  disable_stay_uptodate: false
+  registration:
+    link: '#'
+    text: 'Inscription'
+
+  p1:
+    heading: "Notre mission"
+    image: "images/pages/rocket.jpg"
+    content:
+      - text: "Staff42 est la communauté de Staff Engineers francophones."
+      - text: "Elle a été créée en 2024 dans le but de partager nos expériences et nos façons de travailler."
+      - text: "Elle a également pour objectif de promouvoir le rôle de “Staff & Principal Engineer” dans les organisations."
+  p2:
+    heading: "Organisation"
+    image: "images/pages/orga.jpg"
+    content:
+      - text: "Les échanges entre les membres de la communauté ont lieu via différents canaux :"
+      - text: "→ Le Slack Staff42"
+      - text: "→ Des meetups réguliers, organisé dans différentes villes"
+      - text: "→ Des déjeuners, formels (Brown Bag Lunch) ou informels"
+      - text: "→ Des sessions de peer-mentoring"
+    links:
+      - text: "Rejoins le Slack de la communauté"
+        url: "/registration"
+  p4:
+    heading: "L'actualité de Staff42"
+    content:
+      - text: "Retrouvez les derniers blog posts"
+  p5:
+    heading: "Rejoins la communauté !"
+    content:
+      - text: "Tu veux échanger sur le rôle de Staff Engineer, rejoins le Slack Staff42 !"
+
+  social_media:
+    github:
+      enabled: true
+      url: 'https://github.com/staffeng42'
+    youtube:
+      enabled: true
+      url: 'https://www.youtube.com/@Staff42-org'
+    instagram:
+      enabled: false
+      url: '#'
+    twitter:
+      enabled: false
+      url: '#'
+
+menu:
+  main:
+    - identifier: home
+      name: Accueil
+      url: /
+      weight: 10
+    - identifier: registration
+      name: Inscription
+      url: /registration
+      weight: 20
+    - identifier: blog
+      name: Blog
+      url: /posts
+      weight: 30
+    - identifier: code_of_conduct
+      name: Code de conduite
+      url: /code-of-conduct
+      weight: 40
+#    - identifier: categories
+#      pre: dropdown
+#      name: Categories
+#      weight: 30
+#    - identifier: dropdown
+#      pre: complexdropdown
+#      name: Dropdown
+#      weight: 40
+#    - identifier: contact
+#      name: Contact
+#      url: /contact/
+#      weight: 50
+#  categories:
+#    - identifier: prose
+#      name: Prose
+#      url: /prose/
+#      weight: 10
+#    - identifier: about
+#      name: About
+#      url: /about/
+#      weight: 20
+#  dropdown:
+#    - identifier: appearance
+#      pre: stars # can be stars, comments or piechart
+#      name: Appearance
+#      post: "Easy customization"
+#      url: "#"
+#      weight: 10
+#    - identifier: comments
+#      pre: comments # can be stars, comments or piechart
+#      name: Comments
+#      post: "Check your latest comments"
+#      url: "#"
+#      weight: 20
+#    - identifier: analytics
+#      pre: piechart # can be stars, comments or piechart
+#      name: Analytics
+#      post: "Take a look at your statistics"
+#      url: "#"
+#      weight: 30
   footer:
-    social_url: https://twitter.com/staff42fr
-    social_username: '@staff42fr'
-
-
-taxonomies:
-  category: Categories
-  tag: Tags
+    - identifier: registration
+      name: Inscription
+      url: /registration
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /posts
+      weight: 20
+    - identifier: code_of_conduct
+      name: Code de conduite
+      url: /code-of-conduct
+      weight: 30
 
 markup:
   goldmark:
     renderer:
       unsafe: true
 
+taxonomies:
+  category: Categories
+  tag: Tags
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    disable: true
+    respectDoNotTrack: true
+    useSessionStorage: false
+  instagram:
+    disable: true
+    simple: false
+  twitter:
+    disable: true
+    enableDNT: false
+    simple: false
+  vimeo:
+    disable: true
+    enableDNT: false
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: true
+
 module:
   hugoVersion:
     extended: true
-    min: "0.110.0"
+    min: "0.114.0"
 
+# Enable RSS feed
 outputs:
   home:
-  - html
-  page:
-  - html
+    - html
   section:
-  - html
-  - rss
+    - html
+    - rss
   taxonomy:
-  - html
+    - html
   term:
-  - html
+    - html
 
 services:
   rss:
     limit: 20
-

@@ -1,17 +1,14 @@
 ---
-title: Devoxx recap
+title: Devoxx 2024 recap
 date: 2024-06-09T11:00:00.000Z
+language: fr
 draft: false
 description: Retour sur Devoxx France 2024 !
-featured_image: ../assets/images/blog/devoxx-bof-photo-audience-2-2024.jpg
+featured_image: ../assets/images/posts/devoxx-bof-photo-audience-2-2024.jpg
 summary: Retour sur Devoxx France 2024 !
-tags:
-  - devoxxfr
-  - france
-  - staff42
-  - BOF
-  - talk
-  - speakers
+author: Staff42
+authorimage: ../assets/images/global/staff42-author.png
+tags: [ 'News', 'Meetup', 'Conference' ]
 ---
 # Retour sur Devoxx France 2024
 
@@ -27,7 +24,7 @@ Pour finir, le talk reprend la question “est-ce fait pour vous ?” mais aussi
 
 __Vous l’aurez compris, cette courte présentation était l’occasion de faire davantage connaître les métiers Staff+ en France, et au vu des nombreux retours (sur place puis réseaux sociaux), pour certain(e)s de mettre un mot sur leur rôle au quotidien !__
 
-![François' talk](/img/devoxx-talk-francois-nollen-2024.png)
+![François' talk](/images/devoxx-talk-francois-nollen-2024.png)
 
 ## Résumé des échanges lors du BOF staff42
 
@@ -47,7 +44,7 @@ Nous avons créé Staff42 pour adresser le déficit de notoriété du Staff Engi
 
 __Fun fact: combien de personnes se sont rendu compte que leur réalité quotidienne était beaucoup plus proche de celle d’un staff que ce que leur titre suggère?__
 
-![Staff42 BOF](/img/devoxx-bof-photo-audience-2024.jpg "Staff42 BOF")
+![Staff42 BOF](/images/devoxx-bof-photo-audience-2024.jpg "Staff42 BOF")
 
 ## Et après?
 
@@ -65,3 +62,4 @@ Sinon, n’hésitez pas à nous suivre sur [LinkedIn](https://www.linkedin.com/c
 
 A bientôt !
 
+_L'équipe Staff42 ❤️_

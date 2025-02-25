@@ -1,18 +1,25 @@
-name = "Minimal Marketing"
-license = "MIT"
-licenselink = "https://github.com/letItCurl/minimal_marketing/blob/main/LICENSE"
-description = "This is a simple website that is optimized for converting traffic to a marketing goal. It costs only $10/year to host, hence minimal marketing."
+name = "TailBliss"
+license = "Apache-2.0"
+licenselink = "https://github.com/nusserstudios/tailbliss/blob/main/LICENSE"
+description = "TailBliss is an Hugo Starter with Tailwind CSS 3.2 and Alpine.js with light and dark modes. Submitted for Hacktoberfest 2022."
 
-homepage = "https://github.com/gohugoio/gohugoioTheme"
-demosite = "https://minimal-marketing.pages.dev/"
+# The home page of the theme, where the source can be found.
+homepage = "https://github.com/nusserstudios/tailbliss"
 
-tags = ["blog", "company", "marketing", "landing page"]
-features = ["tailwind", "form", "CTA", "Google analytics"]
+# If you have a running demo of the theme.
+demosite = "https://tailbliss.netlify.app/"
 
+tags = ["blog", "tailwind", "tailwindcss", "dark", "light", "responsive", "minimal", "portfolio", "company", "gallery", "personal" ]
+features = ["blog", "categories", "webp", "tailwind3", "alpinejs"]
+
+min_version = "0.104.0"
+
+# If the theme has a single author
 [author]
-    name = "Roland Lopez"
-    homepage = "https://twitter.com/afrodudeonabike"
+    name = "Jeremy Nusser"
+    homepage = "https://nusserstudios.com"
 
+# If porting an existing theme
 [original]
   name = "Hugo-Tailwind-3.1"
   author = "4044ever"
