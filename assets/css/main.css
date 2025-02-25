@@ -1,4 +1,4 @@
-/* assets */
+/* assets */ 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,5 +20,9 @@ Segoe UI Symbol,
 Android Emoji,
 EmojiSymbols;
 /* Custom CSS */
+
+.prose :where(h1):not(:where([class~="not-prose"] *)) {
+    color: white !important;
+}
 
 /* Custom CSS end */

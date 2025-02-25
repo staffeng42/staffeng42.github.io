@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main>
     <article>
-        <header class="mb-4">
+        <header class="mb-4 bg-primary-600">
             <span class="py-96">
                 <h1 class="py-16 text-5xl font-black text-center text-white capitalize">
                     {{ .Title }}
@@ -13,10 +13,10 @@
             {{- . -}}
         </div>
         {{ end }}
-        {{ partial "posts.html" . }}
+        {{ partial "posts-template.html" . }}
     </article>
     <div class="max-w-xl mx-auto my-16">
-
+        {{ partial "pagination" . }}
     </div>
 </main>
 {{ end }}

@@ -1,15 +1,15 @@
 ---
 title: Discutons Developer Experience
 date: 2024-09-13T14:00:00.000Z
+language: fr
 draft: false
 description: Partage autour de la Developer Experience
-featured_image: ../assets/images/blog/devx-share-n-learn.jpg
+featured_image: ../assets/images/posts/devx-share-n-learn.jpg
 summary: Partage autour de la Developer Experience
-tags:
-  - developer experience
-  - staff42
-  - BBL
-  - REX
+author: Staff42
+authorimage: ../assets/images/global/staff42-author.png
+tags: [ 'BBL', 'REX', 'DevX' ]
+
 ---
 # Discutons Developer Experience
 
@@ -44,3 +44,5 @@ Nous avons aussi aborder l'idée de créer un "playbook" de référence pour abo
 Autant de questions aux réponses multiples mais que beaucoup de gens se posent&nbsp;!
 
 Faites-nous signe si vous voulez prendre part à la discussion 😊
+
+_L'équipe Staff42 ❤️_

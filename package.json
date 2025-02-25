@@ -1,24 +1,45 @@
 {
-  "name": "minimal-marketing",
-  "version": "1.0.0",
-  "description": "",
-  "main": "postcss.config.js",
-  "dependencies": {},
+  "name": "TailBliss",
+  "version": "0.6.1",
+  "description": "Hugo + Alpine.js + TailwindCSS",
+  "main": "index.js",
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.9",
-    "autoprefixer": "^10.4.14",
-    "concurrently": "^8.2.0",
-    "postcss": "^8.4.27",
-    "postcss-cli": "^10.1.0",
-    "tailwindcss": "^3.3.3"
+    "@tailwindcss/typography": "^0.5.15",
+    "alpinejs": "^3.14.3",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.0.1",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.14"
   },
   "scripts": {
     "start": "concurrently npm:watch:*",
     "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
     "watch:hugo": "hugo server",
-    "build": "hugo --minify"
+    "build": "hugo --minify",
+    "test": "hugo"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nusserstudios/tailbliss.git"
+  },
+  "keywords": [
+    "hugo",
+    "tailwind",
+    "tailwindcss",
+    "alpinejs",
+    "minimal",
+    "responsive",
+    "light mode",
+    "dark mode",
+    "hugo blog",
+    "categories",
+    "tags"
+  ],
+  "author": "NusserStudios",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nusserstudios/tailbliss/issues"
+  },
+  "homepage": "https://github.com/nusserstudios/tailbliss"
 }
