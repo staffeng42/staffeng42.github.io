@@ -55,7 +55,7 @@ params:
   disable_theme_toggle: true
   disable_stay_uptodate: false
   registration:
-    link: '#'
+    link: '/registration'
     text: 'Inscription'
 
   p1:
