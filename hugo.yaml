@@ -51,7 +51,7 @@ params:
   authorimage: ../assets/images/global/staff42-author.png
   og_image: /images/pages/staff42-cover.jpg
   moto: "La communauté francophone de Staff Engineers"
-  description: "Staff42, la communauté fracophone de partage autour du rôle de Staff Engineer"
+  description: "Staff42, la communauté francophone de partage autour du rôle de Staff Engineer"
   disable_theme_toggle: true
   disable_stay_uptodate: false
   registration:
