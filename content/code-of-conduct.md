@@ -4,7 +4,7 @@ date: 2024-01-24T18:12:51+07:00
 draft: false
 language: fr
 description: Code de conduite
-featured_image: #../assets/images/pages/banner_staff42.png
+featured_image: 
 ---
 
 Nous demandons à tous les membres de suivre ces directives afin de maintenir une communauté enrichissante, saine et respectueuse.

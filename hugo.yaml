@@ -49,7 +49,7 @@ markup:
 params:
   author: Staff42
   authorimage: ../assets/images/global/staff42-author.png
-  og_image: /images/pages/staff42-cover.jpg
+  og_image: /images/pages/staff42-cover.png
   moto: "La communauté francophone de Staff Engineers"
   description: "Staff42, la communauté francophone de partage autour du rôle de Staff Engineer"
   disable_theme_toggle: true
@@ -172,11 +172,6 @@ menu:
       url: /code-of-conduct
       weight: 30
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
 taxonomies:
   category: Categories
   tag: Tags
@@ -192,7 +187,7 @@ privacy:
   instagram:
     disable: true
     simple: false
-  twitter:
+  x:
     disable: true
     enableDNT: false
     simple: false
