@@ -1308,10 +1308,6 @@ video {
   height: 100%;
 }
 
-.h-48 {
-  height: 12rem;
-}
-
 .max-h-12 {
   max-height: 3rem;
 }
@@ -1603,10 +1599,6 @@ video {
 .bg-zinc-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(244 244 245 / var(--tw-bg-opacity, 1));
-}
-
-.bg-cover {
-  background-size: cover;
 }
 
 .bg-center {
