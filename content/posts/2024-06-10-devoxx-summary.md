@@ -24,7 +24,7 @@ Pour finir, le talk reprend la question “est-ce fait pour vous ?” mais aussi
 
 __Vous l’aurez compris, cette courte présentation était l’occasion de faire davantage connaître les métiers Staff+ en France, et au vu des nombreux retours (sur place puis réseaux sociaux), pour certain(e)s de mettre un mot sur leur rôle au quotidien !__
 
-![François' talk](/images/devoxx-talk-francois-nollen-2024.png)
+![François' talk](/posts/images/devoxx-2024/devoxx-talk-francois-nollen-2024.png)
 
 ## Résumé des échanges lors du BOF staff42
 
@@ -44,7 +44,7 @@ Nous avons créé Staff42 pour adresser le déficit de notoriété du Staff Engi
 
 __Fun fact: combien de personnes se sont rendu compte que leur réalité quotidienne était beaucoup plus proche de celle d’un staff que ce que leur titre suggère?__
 
-![Staff42 BOF](/images/devoxx-bof-photo-audience-2024.jpg "Staff42 BOF")
+![Staff42 BOF](/posts/images/devoxx-2024/devoxx-bof-photo-audience-2024.jpg "Staff42 BOF")
 
 ## Et après?
 

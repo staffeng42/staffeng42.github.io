@@ -78,7 +78,7 @@ If there is no featured image, leave `featured_image` empty or set it to `#`.
 
 ## Example post
 
-See `content/posts/2024-07-02-third-gathering.md` for a complete example. Key points to follow:
+See `content/posts/2025-02-04-meetup-chez-batch.md` for a complete example. Key points to follow:
 
 - Write entirely in French.
 - Use Markdown headings (`##`, `###`) to structure the content.
