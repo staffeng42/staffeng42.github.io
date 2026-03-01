@@ -37,7 +37,7 @@ Après Raphaël, [Sylvain Gogel](https://www.linkedin.com/in/sylvaingogel/) nous
 Aujourd'hui, 80 services en Go sont en production dans le cloud, maintenus par une cinquantaine de développeurs. Avec un ratio de presque deux services par développeurs, l'environnement technique semble stimulant
 et laisse place à de nombreux challenges pour les architectes et staff engineers !
 
-![Sylvain' talk](/img/third-meetup-07-2024_1.jpg)
+![Sylvain' talk](/posts/images/third-meetup-07-2024_2.jpg)
 
 Tout Staff certes que nous sommes, nous n'en demeurons d'ailleurs pas moins des ingénieurs comme tout le monde et tant les questions ont été nombreuses, Sylvain a bien eu du mal à atteindre son 7ème et dernier slide!
 
