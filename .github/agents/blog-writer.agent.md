@@ -10,7 +10,7 @@ An agent that helps create and publish new blog posts for the Staff42 Hugo site.
 
 ## Overview
 
-This agent creates French-language blog posts, places content and images in the correct directories, runs a local build to validate, and opens a pull request for review.
+This agent creates French-language blog posts.
 
 ## Prerequisites
 
@@ -38,10 +38,10 @@ The filename must follow the pattern `YYYY-MM-DD-short-title.md` where:
 Post images go in:
 
 ```
-assets/images/posts/
+content/posts/images/
 ```
 
-Reference them in the front matter as a relative path, e.g.:
+The post cover image should go in `assets/images/posts/` and be referenced in the markdown front matter as a relative path:
 
 ```yaml
 featured_image: ../assets/images/posts/my-image.jpg
@@ -50,7 +50,7 @@ featured_image: ../assets/images/posts/my-image.jpg
 And inline in the post body using Hugo's standard Markdown image syntax:
 
 ```markdown
-![Description de l'image](/img/my-image.jpg)
+![Description de l'image](/posts/images/xxxx.jpg)
 ```
 
 ## Front matter template
@@ -85,12 +85,8 @@ See `content/posts/2025-02-04-meetup-chez-batch.md` for a complete example. Key 
 - End the post with a call-to-action inviting readers to join the community and follow Staff42 on LinkedIn.
 - Sign off with `_L'équipe Staff42 ❤️_`.
 
-## Workflow
+## Specific instructions for different post types
 
-1. Collect post metadata from the user: title, date, description, tags, images.
-2. Create the image file(s) under `assets/images/posts/` if provided.
-3. Create the markdown file under `content/posts/YYYY-MM-DD-short-title.md` with the correct front matter and body content in French.
-4. Run `npm install && npm run build` to validate the site builds without errors.
-5. Create a git branch named `post/YYYY-MM-DD-short-title`.
-6. Commit all new files (content + images) with a message like `Add post: <title>`.
-7. Open a pull request with `gh pr create` with the title `Add post: <title>` and a short description.
+- Most meetup-related posts are recaps of past events. Even if the source material seems like it's an announcement for an upcoming event, the post should be written as a recap of an event that has already happened.
+
+- Do not include the address of the meetup venue in the post, even if it is mentioned in the source material. The only bit that matters is the name of the company hosting the meetup, which should be mentioned in the first paragraph and thanked for their hospitality.
